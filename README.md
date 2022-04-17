@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/tokei/lines/github/clitic/cpb?style=flat-square">
 </p>
 
-`cpb` stands for `copy + progress bar`, it copies files like `cp` command but with a progress bar (alternatively gui). `cpb` cli version is supported by almost any platform and gui version is also supported by many platforms. Curently `cpb` cannot be an complete alternative to `cp` but in few cases `cpb` can be helpful.
+cpb stands for copy + progress bar, it copies files like cp command but with a progress bar (alternatively gui). cpb cli version is supported by almost any platform and gui version is also supported by many platforms. Currently cpb cannot be an complete alternative to cp but in few cases cpb can be helpful.
 
 ![showcase_cli](https://raw.githubusercontent.com/clitic/cpb/main/images/showcase_cli.gif)
 ![showcase_feature_gui](https://raw.githubusercontent.com/clitic/cpb/main/images/showcase_feature_gui.gif)
@@ -57,8 +57,8 @@ OPTIONS:
 
 ## TODOs
 
-- [] ask before overwrite and other operations
-- [] gitignore support with [gitignore.rs](https://github.com/nathankleyn/gitignore.rs)
+- [ ] ask before overwrite and other operations
+- [ ] gitignore support with [gitignore.rs](https://github.com/nathankleyn/gitignore.rs)
 
 ## License
 
