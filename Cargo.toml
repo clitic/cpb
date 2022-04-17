@@ -1,0 +1,22 @@
+[package]
+name = "cpb"
+version = "0.1.0"
+edition = "2021"
+description = "copy files with a progress bar"
+repository = "https://github.com/clitic/cpb"
+license = "MIT"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.1.8", features = ["derive"] }
+kdam = "0.1.0"
+glob = "0.3.0"
+walkdir = "2"
+iui = { git = "https://github.com/rust-native-ui/libui-rs.git", branch = "trunk", optional = true }
+# iui = { git = "https://github.com/rust-native-ui/libui-rs.git", branch = "trunk"}
+
+[features]
+gui = ["dep:iui"]
+# gui = []
